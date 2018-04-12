@@ -11,4 +11,4 @@ Moka Prestashop1.6 sanal pos
 4. Click Save Changes button then users are ready to pay.
 5. Users will see moka payment gateway option on their checkout page.
 6. Admin can see order on their admin interface.
-7. In admin, order detail page, admin will find Cancel & Refund order option.
+
