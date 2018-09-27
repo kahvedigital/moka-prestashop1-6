@@ -1,4 +1,5 @@
 ﻿<link rel="stylesheet" type="text/css" href="{$module_dir|escape:'htmlall':'UTF-8'}views/css/moka.css">
+             <form action="{$url}" method="POST" id="mokapostform">
     <div class= "row"> 
         <div class="col-xs-12">
 
@@ -25,7 +26,7 @@
                                 <div class="info-window cvc " ><div class="arrow-info"></div><div class="cvc-info"><img src="{$module_dir|escape:'htmlall':'UTF-8'}img/cvc-help.png"></div></div>
 
                                 <div class="form-group active moka">
-                                    <form action="{$url}" method="POST" id="mokapostform">
+                        
 
 
                                         <div class="mokaname mokafull">
