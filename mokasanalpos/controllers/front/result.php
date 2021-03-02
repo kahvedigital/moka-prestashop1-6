@@ -239,7 +239,7 @@ class MokasanalposResultModuleFrontController extends ModuleFrontController {
         $trxCode = $_POST['trxCode'];
          $hashValue = $_POST['hashValue'];
 	        session_start();	
-                $HashSession = hash("sha256", $_SESSION['CodeForHash']+"T");
+                $HashSession = hash("sha256", $_SESSION['CodeForHash']."T");
             if ($hashValue == $HashSession) {
              $success = true;
             } else {
